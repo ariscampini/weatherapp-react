@@ -1,24 +1,23 @@
-import './App.css';
-import Weather from "./Weather";
+import "./App.css";
+import NavBar from "./NavBar";
+import Location from "./Location";
+import Temperature from "./Temperature";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        
-        
-<Weather city="Caracas" />
-          
-        
-
-        <p>
-          Hello from Weather</p>
-
-       
-        
-      </header>
+      <div className="card">
+        <NavBar />
+        <Location />
+        <Temperature />
+        <br />
+        <div className="AdditionalInfo">
+          <ul>
+            <li>Humidity: 8% </li>
+            <li>Wind: 15km/h</li>
+          </ul>
+        </div>
+      </div>
     </div>
   );
 }
-
-export default App;

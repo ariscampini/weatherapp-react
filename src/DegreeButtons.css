@@ -1,0 +1,35 @@
+.celsius {
+  border: 2px solid #ffff;
+  border-radius: 5px;
+  color: #ffff;
+  background: transparent;
+  margin: 0 1px 10px;
+  font-size: 18px;
+  line-height: 22px;
+  padding: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 200ms ease;
+  width: 40px;
+  height: 50px;
+}
+.fahrenheit {
+  border: 2px solid #ffff;
+  border-radius: 5px;
+  color: #ffff;
+  background: transparent;
+  margin: 0 1px 8px;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 22px;
+  padding: 1px;
+  text-decoration: none;
+  transition: all 200ms ease;
+  width: 40px;
+  height: 50px;
+}
+
+button:hover {
+  color: #c9c4fb;
+  background: #fff;
+}
